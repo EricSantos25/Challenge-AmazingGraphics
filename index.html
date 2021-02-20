@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmazingGraph</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho">
+            <h1>DevChallenge</h1>
+        <nav>
+            <i onclick="abrir()" onclick="fechar()" class="fas fa-bars"></i>
+            <div id="menu">
+                <a href="#">Home</a>
+                <a href="#">Features</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+        </header>
+
+        <section>
+            <div>
+                <h1>Create amazing graphics</h1>
+                <p>Colaborate and create beautiful graphics with your team</p>
+                <button>Start now</button>
+            </div>
+        </section>
+        <!--<script>
+            function abrir(){
+                var menu = document.getElementById('menu'); //var elem
+                var pos = 20;
+                var id = setInterval(frame, 5);
+                function frame() {
+                    if(pos == 60){
+                        clearInterval(id);
+                    }else{
+                        pos++;
+                        menu.style.display = 'flex';
+                        menu.style.top = pos + 'px';
+                        menu.style.bottom = pos + 'px';
+                        menu.style.height = 'max-content';
+                    }
+                }
+            }
+        </script>-->
+    </div>
+</body>
+</html>
